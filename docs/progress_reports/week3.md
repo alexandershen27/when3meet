@@ -11,23 +11,23 @@ Formed group. Discussed interests, skills, and ideas. Came up with *when3meet*, 
   - **Due**: 01/22/2026
   - **Changes**
     - Create *when3meet* repo
-    - Add docs/user_stories.md
-    - Add docs/progress_reports/template.md
+    - Add `docs/user_stories.md`
+    - Add `docs/progress_reports/template.md`
   - **Notes**
-    - Use progress_reports for future reports
+    - Use `progress_reports` for future reports
 
 - **Requirements engineering** - @all
   - Come up with 2-3 user stories to flesh out the features of the application.
   - **Due**: 01/23/26
   - **Changes**
-    - user_stories.md
+    - `user_stories.md`
   - **Notes**
     - Add any important notes during development here
 
 ## Meetings
 
 ### 01/22/2025
-- **Attendees**: @all 
+- **Attendees**: @all
 - Brainstormed project ideas and agree on realistic and original direction that fits class requirements
 - Compared several ideas on scope, technical complexity, and how well we could apply concepts from the course
 - Build web app inspired by *when2meet*
