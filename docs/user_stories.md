@@ -1,6 +1,6 @@
 # User stories
 
-Informal descriptions of applicationfeatures, written to follow INVEST principles (Independent, Negotiable, Valuable, Estimable, Small, Testable).
+Informal descriptions of application features, written to follow INVEST principles (Independent, Negotiable, Valuable, Estimable, Small, Testable).
 
 ## Template
 
