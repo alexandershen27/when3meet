@@ -7,7 +7,7 @@ Formed group. Discussed interests, skills, and ideas. Came up with *when3meet*, 
 ## Tasks
 
 - **Github repo setup** - @alex
-  - Longer description of second task, including the desired outcome or assignment checkpoint.
+  - Set up Github with templates for progress reports and user stories
   - **Due**: 01/22/2026
   - **Changes**
     - Create *when3meet* repo
