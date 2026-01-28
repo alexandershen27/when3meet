@@ -26,3 +26,12 @@ As an event attendee, I want to submit my availability without creating an accou
 
 As an event creator, I want participants to see times in their local time zone so that they can respond accurately. Given the event has a set time zone, when an attendee opens the event page, then all times are displayed in their local time with a clear time zone label.
 
+**Visual availability feedback** (author: @santiago)
+
+As an event attendee, I want to clearly see which times work best for the group so that I can quickly understand the most popular options.
+Given multiple participants have submitted availability, when I view the availability grid, then times with higher availability are visually emphasized compared to less popular times.
+
+**Availability submission confirmation** (author: @santiago)
+
+As an event attendee, I want to receive clear confirmation that my availability was saved so that I know my response was successfully submitted.
+Given I have marked my available times, when I submit or update my availability, then a clear visual confirmation is displayed indicating my changes were saved.
