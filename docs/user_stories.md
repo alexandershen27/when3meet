@@ -1,4 +1,4 @@
-# User stories
+# User stories & Acceptance criteria
 
 Informal descriptions of application features, written to follow INVEST principles (Independent, Negotiable, Valuable, Estimable, Small, Testable).
 
@@ -6,7 +6,7 @@ Informal descriptions of application features, written to follow INVEST principl
 
 **Title** (author: @joebruin)
 
-As a [user role], I want [to perform an action] so that [I can achieve a goal]. Given [pre-condition], when [condition], then [post-condition].
+As a [user role], I want [to perform an action] so that [I can achieve a goal]. Given [pre-condition], when [action], then [expected outcome].
 
 ## User stories
 
@@ -42,4 +42,14 @@ As a when3meet user, I want to be able to create a persistent account so that I 
 **Google Calendar integration** (author: @stanleywei)
 
 As an event attendee, I want to be able to view my Google Calendar events in the when3meet page so that I can state my availability accordingly. Given I am logged into an account and have connected to Google Calendar, when I open an availability page as an attendee, relevant events in my Google Calendar should be displayed on the when3meet page.
+
+**Top meeting time suggestions** (author: @jennifer)
+
+As an event creator, I want to see the top 3 best meeting times so that I can quickly finalize the event time.
+Given multiple participants have submitted their availability, when I view the event summary page, then the system displays the top 3 time slots with the highest participant availability, clearly ranked.
+
+**Event reminder notification** (author: @jennifer)
+
+As an event attendee, I want to receive a reminder before the scheduled event so that I don’t forget to attend.
+Given an event has a finalized time and I have submitted availability, when the event is within 24 hours of starting, then I receive a reminder notification via email.
 
