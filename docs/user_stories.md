@@ -53,3 +53,10 @@ Given multiple participants have submitted their availability, when I view the e
 As an event attendee, I want to receive a reminder before the scheduled event so that I don’t forget to attend.
 Given an event has a finalized time and I have submitted availability, when the event is within 24 hours of starting, then I receive a reminder notification via email.
 
+**Edit availability after submission** (author: @keelan)
+
+As an event attendee, I want to modify my submitted availability so that I can update my schedule if my plans change. Given I have previously submitted my availability for an event, when I return to the event page and update my available times, then my new availability replaces the old submission with a timestamp showing when it was last updated, and other participants see the most current version of my availability.
+
+**Recurring event scheduling** (author: @keelan)
+
+As an event creator, I want to create recurring availability polls so that I can schedule regular meetings without creating a new poll each time. Given I am creating a new event, when I select "recurring event" and specify the frequency (weekly, biweekly, monthly), then the system generates availability grids for the next specified number of occurrences, allowing participants to submit availability for multiple instances at once.
