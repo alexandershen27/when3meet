@@ -35,3 +35,11 @@ Given multiple participants have submitted availability, when I view the availab
 
 As an event attendee, I want to receive clear confirmation that my availability was saved so that I know my response was successfully submitted.
 Given I have marked my available times, when I submit or update my availability, then a clear visual confirmation is displayed indicating my changes were saved.
+
+**Account creation** (author: @stanleywei)
+As a when3meet user, I want to be able to create a persistent account so that I can easily view events I have created or submitted availability for. Given that I previously entered valid credentials on the sign-up page, when I provide these credentials to the login page, when3meet will recognize me as logged-in and let me view a list of events I have created.
+
+**Google Calendar integration** (author: @stanleywei)
+
+As an event attendee, I want to be able to view my Google Calendar events in the when3meet page so that I can state my availability accordingly. Given I am logged into an account and have connected to Google Calendar, when I open an availability page as an attendee, relevant events in my Google Calendar should be displayed on the when3meet page.
+
