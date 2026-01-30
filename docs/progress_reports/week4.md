@@ -19,7 +19,8 @@ A brief summary of your updates for the week.
   - **Changes**
     - Add link(s) to change(s) here
   - **Notes**
-    - Add any important notes during development here
+    - Eduardo: UML sequence diagrams
+    - Stanley: UML class diagram
 - **Finish Design Doc, Slides** - @keelan @alex
   - Finalize design docs, and create slides for presentation tomorrow
   - **Due**: 01/30/2026
