@@ -2,7 +2,7 @@
 
 ## What is achieved this week?
 
-A brief summary of your updates for the week.
+Completed project proposal and necessary UML diagrams, and created presentation slides.
 
 ## Tasks
 
@@ -25,9 +25,9 @@ A brief summary of your updates for the week.
   - Finalize design docs, and create slides for presentation tomorrow
   - **Due**: 01/30/2026
   - **Changes**
-    - Add link(s) to change(s) here
+    - [Google Slides](https://docs.google.com/presentation/d/1-F2EUzwLgvn0noTmDmKU9WFZ5IHGa_4fwPB8y2dl1dU/edit?usp=sharing)
   - **Notes**
-    - Add any important notes during development here
+    - Focused on interesting and relevant ideas like purpose and goals
 
 ## Meetings
 
