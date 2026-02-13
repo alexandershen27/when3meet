@@ -9,8 +9,8 @@ export interface Event {
     end: Date;
   };
   timeWindow: {
-    start: string; // e.g., "09:00"
-    end: string;   // e.g., "17:00"
+    start: string;
+    end: string;
   };
   timezone: string;
   createdBy?: ObjectId;

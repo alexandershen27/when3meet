@@ -1,4 +1,5 @@
 import { Link, useParams, useLoaderData } from "@remix-run/react";
+import { routes } from "~/lib/routes";
 import type { LoaderFunctionArgs } from "@remix-run/node";
 
 export async function loader({ request }: LoaderFunctionArgs) {
@@ -22,10 +23,10 @@ export default function EventConfirmation() {
         <div className="mt-6 rounded-lg border border-slate-200 bg-white p-6">
           <p className="text-sm font-medium text-slate-700">Shareable Link</p>
           <p className="mt-2 break-all font-mono text-sm text-indigo-600">
-            {`${origin}/events/${eventId}/availability`}
+            {`${origin}${routes.availability(eventId!)}`}
           </p>
           <Link
-            to={`/events/${eventId}/availability`}
+            to={routes.availability(eventId!)}
             className="mt-4 inline-block rounded-lg bg-indigo-600 px-4 py-2 font-semibold text-white hover:bg-indigo-500"
           >
             Open Availability Grid

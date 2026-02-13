@@ -1,4 +1,5 @@
 import { Link } from "@remix-run/react";
+import { routes } from "~/lib/routes";
 
 export default function EventsDashboard() {
   return (
@@ -13,7 +14,7 @@ export default function EventsDashboard() {
           <div className="rounded-lg border border-slate-200 bg-white p-6 text-center">
             <p className="text-slate-500">No events yet.</p>
             <Link
-              to="/events/new"
+              to={routes.newEvent()}
               className="mt-4 inline-block text-indigo-600 hover:text-indigo-500"
             >
               Create your first event →

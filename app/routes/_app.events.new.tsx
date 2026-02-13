@@ -1,6 +1,7 @@
 import { Form, redirect } from "@remix-run/react";
 import type { ActionFunctionArgs } from "@remix-run/node";
 import { createEvent } from "~/models/event.server";
+import { routes } from "~/lib/routes";
 
 export async function action({ request }: ActionFunctionArgs) {
   const formData = await request.formData();
@@ -12,12 +13,10 @@ export async function action({ request }: ActionFunctionArgs) {
     return { error: "Event name is required" };
   }
 
-  // Parse date range (simplified - expects "Dec 1 - Dec 7" format)
   const [startStr, endStr] = dateRange.split("-").map((s) => s.trim());
   const start = startStr ? new Date(startStr) : new Date();
   const end = endStr ? new Date(endStr) : new Date(Date.now() + 7 * 24 * 60 * 60 * 1000);
 
-  // Parse time window (simplified - expects "9:00 AM - 5:00 PM" format)
   const [timeStart, timeEnd] = timeWindow.split("-").map((s) => s.trim());
   const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
@@ -31,12 +30,12 @@ export async function action({ request }: ActionFunctionArgs) {
     timezone,
   });
 
-  return redirect(`/events/${eventId}`);
+  return redirect(routes.event(eventId.toString()));
 }
 
 export default function NewEvent() {
   return (
-    <main className="min-h-screen bg-slate-50 px-4 py-8 sm:px-6 lg:px-8">
+    <main className="px-4 py-8 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-xl">
         <h1 className="text-2xl font-bold text-slate-900">Create Event</h1>
         <p className="mt-1 text-slate-600">

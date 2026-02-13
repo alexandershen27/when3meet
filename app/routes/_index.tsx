@@ -1,4 +1,5 @@
 import { Link } from "@remix-run/react";
+import { routes } from "~/lib/routes";
 
 export default function Index() {
   return (
@@ -13,13 +14,13 @@ export default function Index() {
         </p>
         <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:justify-center">
           <Link
-            to="/events/new"
+            to={routes.newEvent()}
             className="rounded-lg bg-indigo-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-indigo-500"
           >
             Create Event
           </Link>
           <Link
-            to="/events"
+            to={routes.events()}
             className="rounded-lg border border-slate-300 bg-white px-6 py-3 text-base font-semibold text-slate-700 shadow-sm hover:bg-slate-50"
           >
             My Events

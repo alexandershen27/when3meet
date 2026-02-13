@@ -5,7 +5,6 @@ export interface Availability {
   _id?: ObjectId;
   eventId: ObjectId;
   participantId: ObjectId;
-  /** Array of slot IDs or time strings in 15-min intervals */
   slots: string[];
   createdAt: Date;
   updatedAt: Date;
